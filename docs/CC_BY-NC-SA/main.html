@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  {{ super() }}  <!-- 保留主题原有页脚内容 -->
+
+  <!-- 新增 CC BY-NC-SA 声明 -->
+  <div class="cc-license-wrapper">
+    <div class="cc-license">
+    <strong>
+      <span class="cc-text">
+        版权声明：本网站的所有内容均采用 
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议
+
+          <!-- 本地 SVG 示例（优先推荐） -->
+          <img src="../images/by-nc-sa.svg" 
+            alt="CC BY-NC-SA 4.0" 
+            class="cc-icon">
+          <!-- 在线图标备用 -->
+          <!-- <img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0" class="cc-icon"> -->
+          </a>
+
+          授权。
+          <br> </br>
+          您可以自由分享和修改这些内容，但必须遵守以下条件：
+
+          <br> </br>
+          · 署名: 使用时必须注明作者及出处。
+          <br> </br>
+          · 非商业性使用:不得用于商业目的。
+          <br> </br>
+          · 相同方式共享: 修改后的作品必须采用相同的授权协议分享。
+          <br> </br>
+        </strong>
+      </span>
+    </div>
+  </div>
+{% endblock %}

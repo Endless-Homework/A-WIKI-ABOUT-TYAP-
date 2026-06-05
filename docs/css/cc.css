@@ -1,0 +1,35 @@
+/* CC 声明容器：全局靠左，背景可选 */
+.cc-license-wrapper {
+    width: 100%;
+    background-color: #f5f5f5; /* 浅灰色背景，可自定义 */
+    padding: 12px 0;          /* 上下内边距，拉开距离 */
+    padding-left: 20px;
+    text-align: left;       /* 内容靠左 */
+  }
+  
+  /* 图标与文字布局：同行显示，靠左 */
+  .cc-license {
+    display: inline-flex;     
+    align-items: left;      /* 靠左 */
+    font-size: 1.3em;         /* 字体放大（比默认大） */
+    line-height: 1.5;         /* 行高优化 */
+  }
+  
+  /* 图标样式：调整大小和间距 */
+  .cc-icon {
+    width: 88px;              /* 图标宽度（匹配官方尺寸） */
+    height: 31px;             /* 图标高度 */
+    margin-right: 12px;       /* 图标与文字间距 */
+  }
+  
+  /* 文字链接样式：突出显示 */
+  .cc-text a {
+    color: #0078d4;           /* 链接颜色（适配 Material 主题） */
+    text-decoration: none;    /* 移除默认下划线 */
+    font-weight: 600;         /* 加粗，强调链接 */
+  }
+  
+  /* 悬停效果：下划线提示 */
+  .cc-text a:hover {
+    text-decoration: underline;
+  }
