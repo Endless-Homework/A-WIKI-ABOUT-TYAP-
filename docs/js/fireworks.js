@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 先检查库是否加载成功
     if (window.firework) {  
       firework({
-        excludeElements: ["a"],
+        // 新增'img','button'，点击图片、链接、按钮都跳过烟花
+        excludeElements: ["a", "img", "button"],
         particles: [
           {
             shape: "star",
@@ -28,5 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       console.error('错误！ mouse-firework 库未加载！');
     }
-  });
-// https://github.com/D-Sketon/mouse-firework
+});
