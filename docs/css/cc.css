@@ -44,4 +44,30 @@
 [data-md-color-scheme="slate"] .cc-text a {
     color: #42a5f5; /* 深色换亮一点的蓝，避免深蓝在黑底发暗看不清 */
 }
-  
+
+
+
+/*--------------  图片设置  --------------*/
+/* 全局figure容器：40%宽+居中 */
+.md-typeset figure {
+  width: 40%;
+  margin: 1rem auto !important;
+  text-align: center;
+}
+/* 关键：拔高选择器权重，干掉原生max-width限制 */
+.md-typeset figure img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto;
+  display: block;
+}
+/* 图注不变 */
+.md-typeset figcaption {
+    font-size: 0.9rem;
+    margin-top:6px;
+    opacity:0.85;
+    color: var(--md-default-fg-color--light);
+}
+[data-md-color-scheme="slate"] .md-typeset figcaption {
+    opacity:0.9;
+}
