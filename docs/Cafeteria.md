@@ -1,5 +1,5 @@
 ## 食堂
-<p><strong>该条目代表部分在校学生主观意见，不代表官方和所有人。如您有任何想要添加的信息，请<a href="https://tywiki.top/Contact_us/">点击此处查看我们的联系方式</a>。</strong></p>
+<p><strong>该条目代表部分在校学生主观意见，不代表官方和所有人。如您有任何想要添加的信息，请<a href="http://tyapwiki.cc.cd/contact_us/">点击此处查看我们的联系方式</a>。</strong></p>
 
 ### 简介
 <p>
