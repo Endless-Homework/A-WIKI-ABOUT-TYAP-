@@ -6,6 +6,7 @@ nav:
   - 天一中学AP课程班: Introduction.md
   - AP的特色组织和活动: Special_Organizations_and_Activities.md
   - 食堂: Cafeteria.md
+  - 实用链接: Practical_Links.md
   
 # mkdocs.yml
 extra_javascript:
@@ -41,6 +42,19 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+
 
 
   # 此配置允许在代码块和内联代码块上高亮显示语法
