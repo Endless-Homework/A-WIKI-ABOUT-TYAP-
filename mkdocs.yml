@@ -42,11 +42,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
-plugins:
-  - glightbox:
 
-
-
+  
   # 此配置允许在代码块和内联代码块上高亮显示语法
   - pymdownx.highlight:
       anchor_linenums: true
@@ -56,7 +53,8 @@ plugins:
   - pymdownx.snippets
   - pymdownx.superfences
 
-
+plugins:
+  - glightbox:
 
 extra_css:
   - ../css/cc.css
