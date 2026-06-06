@@ -10,7 +10,7 @@
   /* 图标与文字布局：同行显示，靠左 */
   .cc-license {
     display: inline-flex;     
-    align-items: left;      /* 靠左 */
+    align-items: flex-start;      /* ✅ 修正flex垂直靠左 */
     font-size: 1.3em;         /* 字体放大（比默认大） */
     line-height: 1.5;         /* 行高优化 */
   }
@@ -44,7 +44,8 @@
     color: #222 !important;
     opacity: 1 !important;
 }
-/* 页脚版权文字加深 */
-.md-footer p {
+/* 页脚版权文字加深 ✅ 修改类名 */
+.md-copyright p {
     color: #222 !important;
+    opacity: 1 !important;
 }
