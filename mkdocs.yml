@@ -11,7 +11,7 @@ nav:
 # mkdocs.yml
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mouse-firework@latest/dist/index.umd.js  # 库CDN，源代码见 https://github.com/D-Sketon/mouse-firework
-  - js/fireworks.js  # 你的配置脚本
+  - js/fireworks.js  # 烟花特效脚本
 
 
 
@@ -36,7 +36,7 @@ theme:
               icon: material/weather-sunny
               name: 切换到亮色模式
               
-  custom_dir: docs/CC_BY-NC-SA  # 指向自定义模板目录
+  custom_dir: docs/CC_BY-NC-SA  # 指向CC声明
 
 markdown_extensions:
   - attr_list
